@@ -48,7 +48,7 @@ const Nav = ({}) => {
     <div className="px-6 py-4  flex justify-between items-center  bg-white  ">
       <div className="flex gap-2 items-center ">
         <div className="text-2xl text-[#263A05]">
-          {/* <SiWebmoney /> */}
+           <SiWebmoney /> 
         </div>
         <div className="text-2xl text-[]  font-semibold">
           <a href="/">Green Starter</a>
