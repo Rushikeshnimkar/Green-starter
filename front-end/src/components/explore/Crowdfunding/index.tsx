@@ -31,9 +31,9 @@ const BoxComponent = () => {
 
   return (
     <div className="flex justify-center">
-      <div className="bg-gray-200 p-8 rounded-lg shadow-lg">
-        <h1 className="text-2xl font-bold">car</h1>
-        <p className="text-gray-700 mb-4">description </p>
+      <div className="bg-gray-200  rounded-lg shadow-lg m-32 p-10 ">
+        <h1 className="text-2xl font-bold m-2">Kerala Flood</h1>
+        <p className="text-gray-700 mb-4"> Over 489 people died, 15 are missing and 140 are hospitalized, while The Economic Times reported that 33,000 people were rescued. The Kerala State Disaster Management Authority had placed the state on red alert as a result of the intense flooding. </p>
         {!showButtons && (
           <>
             {!showMint && (
