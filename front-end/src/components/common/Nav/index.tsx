@@ -36,12 +36,12 @@ const Nav = ({}) => {
     },
     {
       title: "Community",
-      path: "/dashboard/community", 
+      path: "/dashboard/community",
     },
   ];
 
   const handleCommunityClick = () => {
-    window.location.href = "/community"; 
+    window.location.href = "/community";
   };
 
   return (
@@ -62,7 +62,11 @@ const Nav = ({}) => {
             className="relative cursor-pointer"
             onMouseEnter={() => setActiveDropdown(navItem.title)}
             onMouseLeave={() => setActiveDropdown(null)}
-            onClick={navItem.title === "Community" ? handleCommunityClick : null}
+            onClick={
+              navItem.title === "Community"
+                ? handleCommunityClick
+                : () => {} // Empty function if not Community
+            }
           >
             {navItem.subItems ? (
               <div>
